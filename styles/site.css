@@ -1,0 +1,437 @@
+body {
+    font-family:'Poppins', sans-serif;
+    padding-top:90px;
+
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255,.9);
+    position: fixed;
+    width:100%;
+    height: 80px;
+    top: 0px;
+    box-shadow: 0.1px 2px 2px rgb(208, 211, 215);
+    padding: 5px;
+    z-index: 10;
+}
+
+
+
+#navbar{
+    position: fixed;
+    top:0%;
+    background-color:#084fa6;
+    width:250px;
+    height:100%;
+    transition:.4s;
+    margin: 0;
+    padding: 10px 10px;
+
+
+}
+
+.top{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 5px;
+}
+
+.logo{
+    height: 70px;
+    width: auto;
+}
+
+#logo-title{
+    display:flex;
+    flex-direction:row;
+    margin:0%;
+}
+
+.blue{
+    color:#084ea4;
+}
+.inactive{
+    left: -270px;
+}
+
+.active{
+    left: 0px;
+}
+
+
+
+ul li{
+    list-style:none;
+    padding: 10px 20px 10px 20px;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    display:block;
+    text-decoration: none;
+    border-bottom:1px solid navy ;
+}
+
+nav ul a:hover{
+    background-color:#ffffff;
+    border-radius: 6px;
+    color:#084ea4;
+    padding: 4px;
+}
+
+#hamburger{
+    cursor:pointer;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display:block;
+    position: fixed;
+    right:20px;
+    top:25px;
+}
+
+.fa-solid{
+    color:#084ea4;
+    font-size: 30px;
+}
+
+
+/* index.html css */
+
+#banner {
+    width:100%;
+    height:750px;
+
+}
+
+.banner-photo {
+    height: 750px;
+    width:100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-200%, -50%);
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+    padding: 10px;
+  }
+
+.mission-statement {
+    width:60%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 250%;
+
+}
+
+.What-we-do {
+    width:85%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    text-align: center;
+}
+
+#home-para {
+    font-weight: 200;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    color: #084ea6;
+    font-size: 3rem;
+}
+
+
+.what-we-do-photo {
+  width: 350px;
+  border-radius: 4%;
+
+}
+
+.What-we-do-sections {
+    width:33.3%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.sub-titles {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 150%;
+    text-align: center;
+
+}
+
+.what-para {
+    font-size: 1rem;
+    text-align: left;
+    text-indent: 10%;
+    font-weight: 200;
+}
+
+
+
+/* Teams page**/
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture-rows{
+    display: flex;
+    flex-direction: row;
+
+    width:100%;
+    justify-content:center;
+
+
+}
+
+.position{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 60px 60px 0px;
+
+}
+.board-pic{
+    max-width:200px;
+    min-width: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 6%;
+}
+
+.position-name {
+    text-align: left;
+    line-height: 30%;
+    font-weight: 200;
+}
+
+.teams{
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    margin-bottom: 10%;
+}
+.team-photos{
+    width: 500px;
+    margin:auto;
+
+}
+.reverse {
+    margin-right: 5%;
+}
+
+.role-info{
+    display: flex;
+    flex-direction:column;
+    top:0%;
+    margin-left: 5%;
+
+}
+.center-title {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.hidden{
+    display: none;
+}
+
+/* Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#084ea4;
+    color:white;
+    margin-top:50px;
+    padding: 60px 60px 60px 80px;
+
+}
+.foot-box{
+    margin: 10px;
+}
+.center-title{
+    text-align: center ;
+}
+
+
+
+.footer-texts {
+ font-weight: 500;
+ font-size: 1.1rem;
+}
+
+.footer-image {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*Recruitment*/
+.bar {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #084ea6;
+    height: 350px;
+}
+
+.text-one {
+
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+
+@media (max-width : 1210px) {
+}
+@media (max-width : 1190px) {
+	#main {margin:0 20px;}
+	.box_timeline_holder{padding: 0 0 0 60px;}
+	.box_timeline{padding: 0 60px 0 0;}
+	.box_timeline ul li{margin: 0 0 0 25px;}
+}
+@media (max-width : 1130px) {
+	.box_timeline_holder{padding: 0 0 0 40px;}
+	.box_timeline{padding: 0 40px 0 0;}
+	.box_timeline ul li{margin: 0 0 0 15px;}
+}
+
+@media (max-width : 1050px) {
+	.box_timeline_holder{padding: 0 0 0 20px;}
+	.box_timeline{padding: 0 20px 0 0;}
+	.box_timeline ul li{margin: 0 0 0 5px;}
+
+}
+@media (max-width : 980px) {
+
+	.box_timeline_holder{padding: 0 0 0 10px;}
+	.box_timeline{padding: 0 10px 0 0;}
+	.box_timeline ul li{margin: 0;width: 20%;}
+}
+@media (max-width : 840px) {
+	.box_timeline ul li{margin: 0;width: 100%;float: none;}
+	#main h2{margin: 0 0 30px;}
+	.box_timeline_holder,.box_timeline{background: none;}
+}
+
+@media (max-width:840px) {
+.centered {
+        font-size: 3rem;
+        top:40%;
+    }
+.row{
+        display: flex;
+        flex-direction: column;
+    }
+.banner-photo {
+    width: 100%;
+    height:400px;
+}
+.What-we-do-sections {
+    width: 80%;
+    top:20px;
+}
+
+#banner {
+    height: 400px;
+
+}
+
+}
+
+
+@media(min-width:640px){
+
+    #hamburger{
+        display:none;
+    }
+
+    #navbar{
+        display:flex;
+        flex-direction:row;
+        position: static;
+        background:none;
+        margin-top: 10px;
+        margin-right: 100px;
+        font-size: large;
+
+    }
+
+    nav li a{
+        color:#084ea4;
+    }
+
+
+    nav ul a:hover{
+        background-color: #084ea4;
+        border-radius: 6px;
+        color: white;
+        stroke:#084ea4;
+        stroke-width: 20px;
+
+    }
+
+}
+@media (min-width:725px){
+    .teams{
+        flex-direction: row;
+        margin-top:35px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer{
+        flex-direction: row;
+
+    }
+
+}
+
+@media (max-width : 840px) {
+	.box_timeline ul li{margin: 0;width: 100%;float: none;}
+	#main h2{margin: 0 0 30px;}
+	.box_timeline_holder,.box_timeline{background: none;}
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
